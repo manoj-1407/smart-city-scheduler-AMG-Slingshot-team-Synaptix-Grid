@@ -2,8 +2,9 @@ import random
 import time
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+
 
 
 TASK_TYPES = [
